@@ -1,0 +1,14 @@
+{
+  "__resolveType": "site/sections/NewSection.tsx",
+  "navLinks": [
+    "tet"
+  ],
+  "testimonials": [
+    {
+      "text": "Hey there",
+      "author": "Héricles",
+      "location": "Deco"
+    }
+  ],
+  "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10507/dd85ed62-d7b1-4f82-9df3-c5ebfcbb794e"
+}

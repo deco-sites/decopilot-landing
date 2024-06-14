@@ -20,13 +20,23 @@ interface Props {
   profileImage?: ImageWidget;
 }
 
-export default function AboutSection({ name = "Tiago Gimenes", title = "Software Engineer", description = "Tiago Gimenes is a skilled software engineer with expertise in web development. He creates robust and scalable applications using modern technologies.", profileImage }: Props) {
+export default function AboutSection({
+  name = "Tiago Gimenes",
+  title = "Software Engineer",
+  description =
+    "Tiago Gimenes is a skilled software engineer with expertise in web development. He creates robust and scalable applications using modern technologies.",
+  profileImage,
+}: Props) {
   return (
     <section class="bg-white py-12">
       <div class="container mx-auto flex flex-col md:flex-row items-center">
         {profileImage && (
           <div class="md:w-1/3 mb-8 md:mb-0">
-            <img src={profileImage} alt={name} class="rounded-full w-48 h-48 object-cover mx-auto" />
+            <img
+              src={profileImage}
+              alt={name}
+              class="rounded-full w-48 h-48 object-cover mx-auto"
+            />
           </div>
         )}
         <div class="md:w-2/3 text-center md:text-left">
@@ -36,5 +46,5 @@ export default function AboutSection({ name = "Tiago Gimenes", title = "Software
         </div>
       </div>
     </section>
-  )
+  );
 }
